@@ -19,145 +19,112 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/footer/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/footer/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/footer/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/section-1/hero.jpg": {
-		"ft": 16384,
-		"iS": 337746,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-1/hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-2/hero.png": {
+	"/deploy/img/footer/logo.png": {
 		"ft": 32768,
-		"iS": 21385,
+		"iS": 2774,
 		"oA": 0,
-		"oAP": "/deploy/img/section-2/hero.png",
+		"oAP": "/deploy/img/footer/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/grid-bot.jpg": {
+	"/deploy/img/footer/©2020.png": {
+		"ft": 32768,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/©2020.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-1/shelley-pauls-xQR-TBcMyvo-unsplash resized.png": {
+		"ft": 32768,
+		"iS": 1642838,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/shelley-pauls-xQR-TBcMyvo-unsplash resized.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-2/megan-markham-h7Z-yZbkgLM-unsplash resized.png": {
+		"ft": 32768,
+		"iS": 906959,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/megan-markham-h7Z-yZbkgLM-unsplash resized.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-3/hero 2.png": {
+		"ft": 32768,
+		"iS": 1543900,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/hero 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-4/gallery-1.png": {
+		"ft": 32768,
+		"iS": 1026625,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/gallery-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-4/gallery-2.jpg": {
 		"ft": 16384,
-		"iS": 185897,
+		"iS": 59808,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/grid-bot.jpg",
+		"oAP": "/deploy/img/section-4/gallery-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-4/hero.jpg": {
+	"/deploy/img/section-4/gallery-3.jpg": {
 		"ft": 16384,
-		"iS": 189024,
+		"iS": 85453,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/hero.jpg",
+		"oAP": "/deploy/img/section-4/gallery-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-5/gallery-1.jpg": {
-		"ft": 16384,
-		"iS": 173696,
-		"jF": 0,
+	"/deploy/img/section-5/circle mask.png": {
+		"ft": 32768,
+		"iS": 211061,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-1.jpg",
+		"oAP": "/deploy/img/section-5/circle mask.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-5/gallery-2.jpg": {
-		"ft": 16384,
-		"iS": 47796,
-		"jF": 0,
+	"/deploy/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-3.jpg": {
-		"ft": 16384,
-		"iS": 100411,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-4.jpg": {
-		"ft": 16384,
-		"iS": 170027,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-5.jpg": {
-		"ft": 16384,
-		"iS": 70439,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-6.jpg": {
-		"ft": 16384,
-		"iS": 115782,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oAP": "/deploy/index.html",
+		"oF": 0
 		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
