@@ -347,3 +347,8 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Section 3
+============= */
+#section-3 aside img {
+  width: 100%; }
