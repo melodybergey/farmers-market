@@ -317,6 +317,9 @@ template {
 /* =============
     Base
 ============= */
+Body {
+  background-color: red; }
+
 /* =============
     Typography
 ============= */
