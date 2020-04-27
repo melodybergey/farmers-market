@@ -319,6 +319,8 @@ template {
 ============= */
 ul {
   padding: 0; }
+  ul li {
+    list-style: none; }
 
 /* =============
     Typography
@@ -385,12 +387,14 @@ textarea {
 ============= */
 #section-4 {
   display: grid;
-  grid-template-columns: 15px auto 15 px;
+  grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-4 ."; }
-  #section-4 img {
-    width: 100%; }
   #section-4 ul {
-    grid-area: section-4; }
+    grid-area: section-4;
+    display: grid;
+    gap: 15px; }
+    #section-4 ul li img {
+      width: 100%; }
 
 /* =============
     Section 5
