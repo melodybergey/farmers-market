@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/deploy/css/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -63,11 +73,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/hero.png": {
+	"/deploy/img/section-3/hero-2.png": {
 		"ft": 32768,
 		"iS": 1543900,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/hero.png",
+		"oAP": "/deploy/img/section-3/hero-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -107,11 +117,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-5/circlemask.png": {
+	"/deploy/img/section-5/circle-mask.png": {
 		"ft": 32768,
 		"iS": 211061,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/circlemask.png",
+		"oAP": "/deploy/img/section-5/circle-mask.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -158,8 +168,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 3
+		"oAP": "/dev/index.html",
+		"oF": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -366,16 +376,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
