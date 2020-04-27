@@ -356,6 +356,9 @@ textarea {
 /* =============
     Section 2
 ============= */
+#section-2 aside img {
+  width: 100%; }
+
 /* =============
     Section 3
 ============= */
