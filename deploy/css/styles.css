@@ -352,6 +352,13 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  display: grid;
+  grid-template-columns: 2% auto 2%;
+  grid-template-areas: ". footer ."; }
+  #footer #footer-content {
+    grid-area: footer; }
+
 /* =============
     Section 1
 ============= */
