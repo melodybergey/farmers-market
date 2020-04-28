@@ -322,6 +322,16 @@ ul {
   ul li {
     list-style: none; }
 
+.show-for-md {
+  display: none; }
+  @media (min-width: 768px) {
+    .show-for-md {
+      display: block; } }
+.show-for-lg {
+  display: none; }
+  @media (min-width: 992px) {
+    .show-for-lg {
+      display: block; } }
 /* =============
     Typography
 ============= */
@@ -370,12 +380,20 @@ textarea {
 ============= */
 #section-2 {
   display: grid;
-  grid-template-columns: 15px auto 15px;
+  grid-template-columns: 10% auto 10%;
   grid-template-areas: ". section-2 ."; }
   #section-2 aside img {
     width: 100%; }
   #section-2 #section-2-content {
     grid-area: section-2; }
+    #section-2 #section-2-content #section-2-intro {
+      display: grid;
+      grid-template-columns: 40% auto 5%;
+      grid-template-areas: ". section-2-intro ."; }
+    #section-2 #section-2-content #section-2-image {
+      display: grid;
+      grid-template-columns: 40% auto 5%;
+      grid-template-areas: "section-2-image . ."; }
 
 /* =============
     Section 3
@@ -400,9 +418,21 @@ textarea {
     grid-area: section-4;
     display: grid;
     gap: 15px; }
+    @media (min-width: 768px) {
+      #section-4 ul {
+        grid-template-columns: 100%;
+        grid-template-areas: "g1 g3"; } }
     #section-4 ul li img {
       width: 100%; }
-
+    @media (min-width: 768px) {
+      #section-4 ul #g1 {
+        grid-template-areas: g1; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g2 {
+        grid-template-areas: g2; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g3 {
+        grid-template-areas: g3; } }
 /* =============
     Section 5
 ============= */

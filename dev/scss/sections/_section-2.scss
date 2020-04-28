@@ -8,10 +8,22 @@
         }
     }
     display: grid;
-    grid-template-columns: 15px auto 15px;
+    grid-template-columns: 10% auto 10%;
     grid-template-areas:". section-2 ." ;
 
     #section-2-content{
         grid-area: section-2;
+
+        #section-2-intro{
+            display: grid;
+            grid-template-columns: 40% auto 5%;
+            grid-template-areas: ". section-2-intro .";
+        }
+
+        #section-2-image{
+            display: grid;
+            grid-template-columns: 40% auto 5%;
+            grid-template-areas: "section-2-image . .";
+        }
     }
 }
