@@ -12,10 +12,10 @@
         gap: 15px;
 
         @include md{
-            grid-template-columns: 100%;
+            grid-template-columns: repeat(2, 1fr);
 
             grid-template-areas:
-            "g1 g3";
+            "g1";
         }
 
         li{
@@ -39,6 +39,12 @@
         #g3{
             @include md{
                 grid-template-areas: g3;
+            }
+        }
+
+        #g4{
+            @include md{
+                grid-template-areas: g4;
             }
         }
     }

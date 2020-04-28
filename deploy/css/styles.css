@@ -420,8 +420,8 @@ textarea {
     gap: 15px; }
     @media (min-width: 768px) {
       #section-4 ul {
-        grid-template-columns: 100%;
-        grid-template-areas: "g1 g3"; } }
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "g1"; } }
     #section-4 ul li img {
       width: 100%; }
     @media (min-width: 768px) {
@@ -433,6 +433,9 @@ textarea {
     @media (min-width: 768px) {
       #section-4 ul #g3 {
         grid-template-areas: g3; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g4 {
+        grid-template-areas: g4; } }
 /* =============
     Section 5
 ============= */
