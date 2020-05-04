@@ -380,21 +380,19 @@ textarea {
 ============= */
 #section-2 {
   display: grid;
-  grid-template-columns: 10% auto 10%;
+  grid-template-columns: 2% auto 2%;
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas: ". section-2 ."; }
   #section-2 aside img {
     width: 100%; }
-  #section-2 #section-2-content {
-    grid-area: section-2; }
-    #section-2 #section-2-content #section-2-intro {
-      display: grid;
-      grid-template-columns: 40% auto 5%;
-      grid-template-areas: ". section-2-intro ."; }
+  @media (min-width: 768px) {
+    #section-2 #section-2-content {
+      grid-area: section-2; } }
+  @media (min-width: 768px) {
     #section-2 #section-2-content #section-2-image {
       display: grid;
       grid-template-columns: 40% auto 5%;
-      grid-template-areas: "section-2-image . ."; }
-
+      grid-template-areas: "section-2-image . ."; } }
 /* =============
     Section 3
 ============= */
@@ -412,7 +410,8 @@ textarea {
 ============= */
 #section-4 {
   display: grid;
-  grid-template-columns: 15px auto 15px;
+  grid-gap: 15px;
+  grid-template-columns: repeat(autofit, minmax(100px, 1fr));
   grid-template-areas: ". section-4 ."; }
   #section-4 ul {
     grid-area: section-4;
