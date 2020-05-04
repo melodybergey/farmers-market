@@ -6,12 +6,17 @@
     @include md{
         display: grid;
         grid-template-columns: auto 768px auto;
+        grid-template-areas: ". section-2-tablet";
     }
 
     #section-2-tablet{
         @include md{
             display: grid;
             grid-template-columns: 40% auto;
+        }
+
+        @include md{
+            grid-template-areas: section-2-tablet;
         }
     
         aside{
@@ -34,5 +39,3 @@
          
         }
     }
-
-}

@@ -378,6 +378,12 @@ textarea {
 /* =============
     Section 2
 ============= */
+@media (min-width: 768px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: auto 768px auto;
+    grid-template-areas: ". section-2-tablet"; } }
+
 #section-2 #section-2-tablet {
   display: grid;
   grid-template-columns: 2% auto 2%;
@@ -386,6 +392,9 @@ textarea {
     #section-2 #section-2-tablet {
       display: grid;
       grid-template-columns: 40% auto; } }
+  @media (min-width: 768px) {
+    #section-2 #section-2-tablet {
+      grid-template-areas: section-2-tablet; } }
   #section-2 #section-2-tablet aside img {
     width: 100%; }
 
