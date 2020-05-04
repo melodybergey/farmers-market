@@ -391,7 +391,8 @@ textarea {
   @media (min-width: 768px) {
     #section-2 #section-2-tablet {
       display: grid;
-      grid-template-columns: 40% auto; } }
+      grid-template-columns: 40% auto;
+      grid-template-areas: "section-2-tablet"; } }
   @media (min-width: 768px) {
     #section-2 #section-2-tablet {
       grid-template-areas: section-2-tablet; } }
@@ -430,7 +431,7 @@ textarea {
     @media (min-width: 768px) {
       #section-4 ul {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "g1" "g2 g3"; } }
+        grid-template-areas: "g1 g2" "g1 g3"; } }
     #section-4 ul li img {
       width: 100%; }
     @media (min-width: 768px) {

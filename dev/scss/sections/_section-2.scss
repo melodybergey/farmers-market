@@ -13,6 +13,7 @@
         @include md{
             display: grid;
             grid-template-columns: 40% auto;
+            grid-template-areas: "section-2-tablet";
         }
 
         @include md{
