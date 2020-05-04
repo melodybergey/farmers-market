@@ -2,29 +2,37 @@
     Section 2
 ============= */
 #section-2{
-    aside{
-        img{
-            width: 100%;
-        }
-    }
-    display: grid;
-    grid-template-columns: 2% auto 2%;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:". section-2 ." ;
 
-    #section-2-content{
+    @include md{
+        display: grid;
+        grid-template-columns: auto 768px auto;
+    }
+
+    #section-2-tablet{
         @include md{
-            grid-area: section-2;
+            display: grid;
+            grid-template-columns: 40% auto;
         }
-        
-
-        #section-2-image{
-            @include md {
-                display: grid;
-                grid-template-columns: 40% auto 5%;
-                grid-template-areas: "section-2-image . .";
+    
+        aside{
+            img{
+                width: 100%;
             }
-            
+        }
+        display: grid;
+        grid-template-columns: 2% auto 2%;
+        grid-template-areas:". section-2 ." ;
+    
+        }
+    
+        #section-2-content{
+            @include md{
+                display: grid;
+                grid-template-columns: 15% auto 15% ;
+                grid-template-areas: section-2-content;
+            }
+         
         }
     }
+
 }

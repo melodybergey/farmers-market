@@ -3,8 +3,7 @@
 ============= */
 #section-4{
     display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+    grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-4 .";
 
     ul{
@@ -16,7 +15,8 @@
             grid-template-columns: repeat(2, 1fr);
 
             grid-template-areas:
-            "g1";
+            "g1"
+            "g2 g3";
         }
 
         li{
@@ -40,12 +40,6 @@
         #g3{
             @include md{
                 grid-template-areas: g3;
-            }
-        }
-
-        #g4{
-            @include md{
-                grid-template-areas: g4;
             }
         }
     }
