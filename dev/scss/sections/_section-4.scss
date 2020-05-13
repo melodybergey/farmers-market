@@ -2,45 +2,23 @@
     Section 4
 ============= */
 #section-4{
+   
     display: grid;
-    grid-template-columns: 15px auto 15px;
+    grid-template-columns: 10px auto 10px ;
     grid-template-areas: ". section-4 .";
-
-    ul{
-        grid-area: section-4;
+    @include xl{
         display: grid;
-        gap: 15px;
+        grid-template-columns: auto 800px auto;
+    }
 
-        @include md{
-            grid-template-columns: repeat(2, 1fr);
+    section{
+        grid-area: section-4;
 
-            grid-template-areas:
-            "g1 g2"
-            "g1 g3";
-        }
-
-        li{
-            img{
-                width: 100%;
-            }
-        }
-
-        #g1{
-            @include md{
-                grid-template-areas: g1;
-            }
-        }
-
-        #g2{
-            @include md{
-                grid-template-areas: g2;
-            }
-        }
-
-        #g3{
-            @include md{
-                grid-template-areas: g3;
-            }
+        h2{
+            margin: 10px 40px;
+            font-size: rem-calc(25);
+            line-height: rem-calc(25);
+            text-align: center;
         }
     }
 }

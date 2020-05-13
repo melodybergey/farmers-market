@@ -1,0 +1,17 @@
+/* =============
+    Section 6
+============= */
+#section-6{
+    aside{
+        img{
+            width: 100%;
+        }
+    }
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas:". section-6 ." ;
+
+    #section-6-content{
+        grid-area: section-6;
+    }
+}
